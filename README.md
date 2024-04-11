@@ -1,7 +1,5 @@
 <h1 align="center">LA Crime Data Interactive Application</h1>
-<p align="center">
-  ![Project Banner](link-to-project-banner)
-</p>
+
 
 ![Python Version](https://img.shields.io/badge/Python_Version-3.x-blue)
 ![Last Commit](https://img.shields.io/github/last-commit/yourgithubusername/project-repo)
@@ -30,13 +28,14 @@
 - [Tech Stack](#tech-stack)
 - [Challenges and Solutions](#challenges-and-solutions)
 - [Lessons Learned](#lessons-learned)
-- [Future Enhancements](#future-enhancements)
 - [Contribution](#contribution)
-- [License](#license)
+
 
 ## Introduction
 
-Briefly introduce the project and its goals. Mention how it utilizes LA crime data to provide interactive functionalities to the users.
+Our LA Crime Data Interactive Application is a straightforward, web-based platform created by students to explore and interact with Los Angeles crime data from 2010 to present. Utilizing extensive datasets sourced from Kaggle and compiled into two large CSV files, our project enables users to insert new crime data entries, enhancing the database's comprehensiveness over time.
+
+A key feature of the application is its interactive map, allowing users to select specific areas and define a search radius to filter crime incidents based on categories: violent, lesser violent, and other. This functionality provides a practical tool for analyzing crime trends, offering valuable insights for academic research, policy-making, and public awareness. Through this project, we aim to make LA crime data more accessible and actionable for our community.
 
 ## Context
 
@@ -55,7 +54,7 @@ Discuss the database technology used, how it's structured, and its role in stori
 
 ## Data Source
 
-Provide information on the LA crime data used, its source, and how it's integrated into your application.
+This dataset reflects incidents of crime in the City of Los Angeles dating back to 2020. This data is transcribed from original crime reports that are typed on paper and therefore there may be some inaccuracies within the data. Some location fields with missing data are noted as (0°, 0°). Address fields are only provided to the nearest hundred block in order to maintain privacy. This data is as accurate as the data in the database. Please note questions or concerns in the comments.
 
 ## Feature Highlights
 
@@ -85,15 +84,8 @@ Discuss any significant challenges faced during development and the solutions im
 
 Reflect on the development process and any insights gained from working on the project.
 
-## Future Enhancements
-
-Outline potential improvements or new features that could be added to the project in the future.
-
 ## Contribution
 
 Details on how others can contribute to the project, including guidelines for pull requests, issue reporting, and contact information for the development team.
 
-## License
-
-Specify the project's license and include its text. Typically, projects include an open-source license such as MIT.
 
